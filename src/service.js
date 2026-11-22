@@ -547,7 +547,8 @@ export class OebbService {
 
   /** The station a typed text designates: a number, an exact name or the only match. */
   async resolve(text) {
-    if (STATION_CODE.test(text)) {
+    // A typed number has 6 to 9 digits (a postcode such as 1020 is a name).
+    if (/^\d{6,9}$/.test(text)) {
       const station = await this.call(() => this.api.station(text));
       return station ? [station] : [];
     }
