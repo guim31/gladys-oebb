@@ -1,0 +1,32 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Salzburg S&#252;d Bahnhst [in Elsbethen]",
+"stationEvaId":"1250109",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"917138817","ti":"11:59","da":"22.11.2026","pr":"O-Bus 7","st":"Salzachsee","lastStop":"Salzburg Salzachsee","ati":"12:34","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"910442819","ti":"12:00","da":"22.11.2026","pr":"O-Bus 3","st":"Salzburg Nord","lastStop":"Salzburg Landstra&#223;e (Bahnhofstra&#223;e)","ati":"12:31","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278438110","ti":"12:02","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"12:29","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"917630819","ti":"12:10","da":"22.11.2026","pr":"O-Bus 8","st":"Messe/Salzburgarena","lastStop":"Salzburg Salzburgarena","ati":"12:44","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"916991816","ti":"12:11","da":"22.11.2026","pr":"O-Bus 7","st":"Salzburg S&#252;d","lastStop":"Salzburg S&#252;d Bahnhst (Salzachweg)","ati":"12:12","tr":"","trChg":false,"rt":{"status":null,"dlm":"4","dlt":"12:15","dld":"22.11.2026"},"rta":false}   
+,{"id":"323379810","ti":"12:13","da":"22.11.2026","pr":"R 3","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"12:23","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"917138818","ti":"12:18","da":"22.11.2026","pr":"O-Bus 7","st":"Salzachsee","lastStop":"Salzburg Salzachsee","ati":"12:54","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"917138818","ti":"12:19","da":"22.11.2026","pr":"O-Bus 7","st":"Salzachsee","lastStop":"Salzburg Salzachsee","ati":"12:54","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"9104428110","ti":"12:20","da":"22.11.2026","pr":"O-Bus 3","st":"Salzburg Nord","lastStop":"Salzburg Landstra&#223;e (Bahnhofstra&#223;e)","ati":"12:51","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278388113","ti":"12:27","da":"22.11.2026","pr":"S 3","st":"Golling-Abtenau","lastStop":"Golling/Salzach-Abtenau Bahnhof","ati":"12:53","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"9176308110","ti":"12:30","da":"22.11.2026","pr":"O-Bus 8","st":"Messe/Salzburgarena","lastStop":"Salzburg Salzburgarena","ati":"13:04","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"916991817","ti":"12:31","da":"22.11.2026","pr":"O-Bus 7","st":"Salzburg S&#252;d","lastStop":"Salzburg S&#252;d Bahnhst (Salzachweg)","ati":"12:32","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278438111","ti":"12:32","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"12:59","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"917138819","ti":"12:38","da":"22.11.2026","pr":"O-Bus 7","st":"Salzachsee","lastStop":"Salzburg Salzachsee","ati":"13:14","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"917138819","ti":"12:39","da":"22.11.2026","pr":"O-Bus 7","st":"Salzachsee","lastStop":"Salzburg Salzachsee","ati":"13:14","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"9104428111","ti":"12:40","da":"22.11.2026","pr":"O-Bus 3","st":"Salzburg Nord","lastStop":"Salzburg Landstra&#223;e (Bahnhofstra&#223;e)","ati":"13:11","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"332014811","ti":"12:41","da":"22.11.2026","pr":"IR 713","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"12:49","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"323358811","ti":"12:48","da":"22.11.2026","pr":"R 3","st":"Saalfelden","lastStop":"Saalfelden Bahnhof","ati":"14:34","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"9176308111","ti":"12:50","da":"22.11.2026","pr":"O-Bus 8","st":"Messe/Salzburgarena","lastStop":"Salzburg Salzburgarena","ati":"13:24","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"916991818","ti":"12:51","da":"22.11.2026","pr":"O-Bus 7","st":"Salzburg S&#252;d","lastStop":"Salzburg S&#252;d Bahnhst (Salzachweg)","ati":"12:52","tr":"","trChg":false,"rt":false,"rta":false}   
+],
+"maxJ":19
+}

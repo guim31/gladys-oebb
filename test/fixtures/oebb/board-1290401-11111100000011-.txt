@@ -1,0 +1,32 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Wien Hbf (U)",
+"stationEvaId":"1290401",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"821214810","ti":"11:30","da":"22.11.2026","pr":"EC 140","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"12:00","tr":"8A-B","trChg":true,"rt":{"status":null,"dlm":"34","dlt":"12:04","dld":"22.11.2026"},"rta":false}   
+,{"id":"330383810","ti":"11:53","da":"22.11.2026","pr":"IC 535","st":"Graz Hbf","lastStop":"Graz Hbf","ati":"14:19","tr":"7A-B","trChg":false,"rt":{"status":null,"dlm":"7","dlt":"12:00","dld":"22.11.2026"},"rta":false}   
+,{"id":"826223811","ti":"11:59","da":"22.11.2026","pr":"REX 1","st":"Wr.Neustadt Hbf","lastStop":"Wr.Neustadt Hbf","ati":"12:48","tr":"3","trChg":false,"rt":false,"rta":false}   
+,{"id":"825342810","ti":"12:00","da":"22.11.2026","pr":"EC 203","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"12:30","tr":"6A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"826220811","ti":"12:02","da":"22.11.2026","pr":"REX 1","st":"Breclav","lastStop":"Breclav","ati":"13:29","tr":"4A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"326029813","ti":"12:03","da":"22.11.2026","pr":"S 80","st":"Wr.Neustadt Hbf","lastStop":"Wr.Neustadt Hbf","ati":"13:16","tr":"3","trChg":false,"rt":false,"rta":false}   
+,{"id":"825366810","ti":"12:10","da":"22.11.2026","pr":"EC 204","st":"Krakow Glowny","lastStop":"Krakow Glowny","ati":"17:47","tr":"12A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"326342815","ti":"12:11","da":"22.11.2026","pr":"S 60","st":"Wampersdorf","lastStop":"Wampersdorf Bahnhof","ati":"12:47","tr":"6A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"325371812","ti":"12:12","da":"22.11.2026","pr":"S 2","st":"M&#246;dling","lastStop":"M&#246;dling Bahnhof","ati":"12:35","tr":"3","trChg":false,"rt":false,"rta":false}   
+,{"id":"330484810","ti":"12:13","da":"22.11.2026","pr":"IC 549","st":"Flughafen Wien","lastStop":"Flughafen Wien Bahnhof","ati":"12:27","tr":"9A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"968322810","ti":"12:14","da":"22.11.2026","pr":"REX 8","st":"Bratislava hl.st.","lastStop":"Bratislava hl.st.","ati":"13:10","tr":"5C-E","trChg":true,"rt":false,"rta":false}   
+,{"id":"326789811","ti":"12:17","da":"22.11.2026","pr":"S 1","st":"Wien Liesing","lastStop":"Wien Liesing Bahnhof","ati":"12:32","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"326427815","ti":"12:18","da":"22.11.2026","pr":"REX 64","st":"Eisenstadt","lastStop":"Eisenstadt Bahnhof","ati":"13:27","tr":"5A-B","trChg":true,"rt":false,"rta":false}   
+,{"id":"332416811","ti":"12:18","da":"22.11.2026","pr":"REX 63","st":"Pamhagen","lastStop":"Pamhagen Bahnhof","ati":"13:38","tr":"5A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"326355813","ti":"12:21","da":"22.11.2026","pr":"S 60","st":"Bruck/Leitha","lastStop":"Bruck/Leitha Bahnhof","ati":"13:01","tr":"11C-E","trChg":true,"rt":false,"rta":false}   
+,{"id":"325373813","ti":"12:23","da":"22.11.2026","pr":"REX 7","st":"Wolfsthal","lastStop":"Wolfsthal Bahnhof","ati":"13:34","tr":"9A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"943984812","ti":"12:23","da":"22.11.2026","pr":"REX 6","st":"Deutschkreutz","lastStop":"Deutschkreutz Bahnhof","ati":"13:47","tr":"6A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"943990812","ti":"12:23","da":"22.11.2026","pr":"REX 65","st":"Wulkaprodersdorf","lastStop":"Wulkaprodersdorf Bahnhof","ati":"13:16","tr":"6A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"332193810","ti":"12:24","da":"22.11.2026","pr":"RJ 750","st":"Villach Hbf","lastStop":"Villach Hbf","ati":"16:24","tr":"7A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"332154817","ti":"12:27","da":"22.11.2026","pr":"R 95","st":"Traiskirchen Aspangbahn","lastStop":"Traiskirchen Aspangbahn Bahnhof","ati":"12:58","tr":"11A-B","trChg":true,"rt":false,"rta":false}   
+],
+"maxJ":19
+}

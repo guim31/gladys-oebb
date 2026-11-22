@@ -1,0 +1,33 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Wien Hbf (U)",
+"stationEvaId":"1290401",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"821214810","ti":"11:30","da":"22.11.2026","pr":"EC 140","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"12:00","tr":"8A-B","trChg":true,"rt":{"status":null,"dlm":"34","dlt":"12:04","dld":"22.11.2026"},"rta":false}   
+,{"id":"330383810","ti":"11:53","da":"22.11.2026","pr":"IC 535","st":"Graz Hbf","lastStop":"Graz Hbf","ati":"14:19","tr":"7A-B","trChg":false,"rt":{"status":null,"dlm":"7","dlt":"12:00","dld":"22.11.2026"},"rta":false}   
+,{"id":"826223811","ti":"11:59","da":"22.11.2026","pr":"REX 1","st":"Wr.Neustadt Hbf","lastStop":"Wr.Neustadt Hbf","ati":"12:48","tr":"3","trChg":false,"rt":false,"rta":false}   
+,{"id":"968798810","ti":"12:00","da":"22.11.2026","pr":"Tram 62","st":"Quartier Belvedere Bahnhst","lastStop":"Wien Quartier Belvedere Bahnhst (Wiedner G&#252;rtel)","ati":"12:03","tr":"J","trChg":false,"rt":false,"rta":false}   
+,{"id":"825342810","ti":"12:00","da":"22.11.2026","pr":"EC 203","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"12:30","tr":"6A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"500548815","ti":"12:01","da":"22.11.2026","pr":"Tram O","st":"Bruno-Marek-Allee","lastStop":"Wien Bruno-Marek-Allee (Schleife)","ati":"12:28","tr":"F","trChg":false,"rt":{"status":null,"dlm":"2","dlt":"12:03","dld":"22.11.2026"},"rta":false}   
+,{"id":"511886814","ti":"12:01","da":"22.11.2026","pr":"Tram 18","st":"Burggasse-Stadthalle","lastStop":"Wien Burggasse-Stadthalle (Innerer Neubaug&#252;rtel)","ati":"12:20","tr":"H","trChg":false,"rt":false,"rta":false}   
+,{"id":"3145628111","ti":"12:02","da":"22.11.2026","pr":"U1","st":"Oberlaa","lastStop":"Wien Oberlaa (U1)","ati":"12:12","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"500716813","ti":"12:02","da":"22.11.2026","pr":"Tram O","st":"<b>Wien Raxstra&#223;e (Rudolfsh&#252;gelgasse)</b>","lastStop":"Wien Migerkastra&#223;e","ati":"12:14","tr":"E","trChg":false,"rt":{"status":null,"dlm":"8","dlt":"12:10","dld":"22.11.2026"},"rta":false}   
+,{"id":"5110558113","ti":"12:02","da":"22.11.2026","pr":"Bus 69A","st":"Simmering Bf","lastStop":"Wien Simmering Bahnhof (Simmeringer Platz)","ati":"12:33","tr":"G","trChg":false,"rt":false,"rta":false}   
+,{"id":"826220811","ti":"12:02","da":"22.11.2026","pr":"REX 1","st":"Breclav","lastStop":"Breclav","ati":"13:29","tr":"4A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"311810818","ti":"12:03","da":"22.11.2026","pr":"U1","st":"Leopoldau","lastStop":"Wien Leopoldau Bahnhst (U1)","ati":"12:27","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"326029813","ti":"12:03","da":"22.11.2026","pr":"S 80","st":"Wr.Neustadt Hbf","lastStop":"Wr.Neustadt Hbf","ati":"13:16","tr":"3","trChg":false,"rt":false,"rta":false}   
+,{"id":"499877814","ti":"12:04","da":"22.11.2026","pr":"Tram D","st":"Nu&#223;dorf Beethovengang","lastStop":"Wien Nu&#223;dorf Beethovengang (Schleife/Stadtwanderweg 1)","ati":"12:50","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"970096810","ti":"12:04","da":"22.11.2026","pr":"Tram 62","st":"<b>Wien Lainz Wolkersbergenstra&#223;e (Nr.118)</b>","lastStop":"Wien Lainz Wolkersbergenstra&#223;e (Nr.104)","ati":"12:37","tr":"H","trChg":false,"rt":false,"rta":false}   
+,{"id":"499628811","ti":"12:06","da":"22.11.2026","pr":"Tram D","st":"<b>Wien Absberggasse (Eva-Zilcher-Gasse)</b>","lastStop":"Wien Absberggasse (S&#252;dbahnhofbr&#252;cke)","ati":"12:11","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"502132818","ti":"12:06","da":"22.11.2026","pr":"Bus 13A","st":"Alser Stra&#223;e/Skodagasse","lastStop":"Wien Skodagasse (Nr.27)","ati":"12:36","tr":"G","trChg":false,"rt":false,"rta":false}   
+,{"id":"647928815","ti":"12:06","da":"22.11.2026","pr":"Bus 200","st":"Eisenstadt Busbahnhof (Domplatz)","lastStop":"Eisenstadt Busbahnhof (Domplatz)","ati":"13:30","tr":"N2","trChg":false,"rt":false,"rta":false}   
+,{"id":"3158878111","ti":"12:07","da":"22.11.2026","pr":"U1","st":"Alaudagasse","lastStop":"Wien Alaudagasse (U1)","ati":"12:14","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"3099648111","ti":"12:08","da":"22.11.2026","pr":"U1","st":"Leopoldau","lastStop":"Wien Leopoldau Bahnhst (U1)","ati":"12:32","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"511217817","ti":"12:08","da":"22.11.2026","pr":"Tram 18","st":"Stadion","lastStop":"Wien Stadion (Meiereistra&#223;e/Handelskai)","ati":"12:33","tr":"J","trChg":false,"rt":{"status":null,"dlm":"1","dlt":"12:09","dld":"22.11.2026"},"rta":false}   
+],
+"maxJ":20
+}

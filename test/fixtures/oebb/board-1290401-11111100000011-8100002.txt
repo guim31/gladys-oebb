@@ -1,0 +1,32 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Wien Hbf (U)",
+"stationEvaId":"1290401",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"324307810","ti":"12:28","da":"22.11.2026","pr":"RJX19982","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"17:39","tr":"8","trChg":false,"rt":{"status":null,"dlm":"7","dlt":"12:35","dld":"22.11.2026"},"rta":false}   
+,{"id":"838314810","ti":"12:28","da":"22.11.2026","pr":"RJX 62","st":"M&#252;nchen Hbf","lastStop":"M&#252;nchen Hbf","ati":"16:43","tr":"8","trChg":false,"rt":{"status":null,"dlm":"7","dlt":"12:35","dld":"22.11.2026"},"rta":false}   
+,{"id":"331480812","ti":"12:57","da":"22.11.2026","pr":"IC 644","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"15:49","tr":"8A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"819497810","ti":"13:24","da":"22.11.2026","pr":"RJ 110","st":"M&#252;nchen Hbf","lastStop":"M&#252;nchen Hbf","ati":"21:51","tr":"7A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"323709810","ti":"13:28","da":"22.11.2026","pr":"RJX 166","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"18:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"324245810","ti":"13:28","da":"22.11.2026","pr":"RJX19956","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"18:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"331480813","ti":"13:57","da":"22.11.2026","pr":"IC 646","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"16:49","tr":"8A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"323302811","ti":"14:28","da":"22.11.2026","pr":"RJX13474","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"19:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"838771810","ti":"14:28","da":"22.11.2026","pr":"RJX 64","st":"M&#252;nchen Hbf Gl.5-10","lastStop":"M&#252;nchen Hbf Gl.5-10","ati":"18:43","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"331480814","ti":"14:57","da":"22.11.2026","pr":"IC 648","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"17:49","tr":"8A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"820299810","ti":"15:13","da":"22.11.2026","pr":"ICE 1212","st":"M&#252;nchen Hbf","lastStop":"M&#252;nchen Hbf","ati":"19:56","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"331735810","ti":"15:24","da":"22.11.2026","pr":"RJ 658","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"21:53","tr":"7A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"323740810","ti":"15:28","da":"22.11.2026","pr":"RJX 168","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"20:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"324021810","ti":"15:28","da":"22.11.2026","pr":"RJX 187","st":"Bolzano/Bozen","lastStop":"Bolzano/Bozen","ati":"22:27","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"332153810","ti":"15:57","da":"22.11.2026","pr":"IC 740","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"18:49","tr":"8A-B","trChg":true,"rt":false,"rta":false}   
+,{"id":"324321810","ti":"16:28","da":"22.11.2026","pr":"RJX19986","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"21:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"839145810","ti":"16:28","da":"22.11.2026","pr":"RJX 66","st":"M&#252;nchen Hbf","lastStop":"M&#252;nchen Hbf","ati":"20:47","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"332165810","ti":"16:57","da":"22.11.2026","pr":"IC 742","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"19:49","tr":"8A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"331711810","ti":"17:24","da":"22.11.2026","pr":"RJ 656","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"00:06","tr":"7A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"324281810","ti":"17:28","da":"22.11.2026","pr":"RJX19970","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"22:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+],
+"maxJ":19
+}

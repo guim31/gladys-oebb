@@ -1,8 +1,8 @@
 {
-  "name": "gladys-integration-template-js",
+  "name": "gladys-oebb",
   "version": "1.0.0",
   "private": true,
-  "description": "Official starter template to build an external integration for Gladys Assistant with the JavaScript SDK.",
+  "description": "Next trains of your Austrian stations in real time (ÖBB Scotty, unofficial): delays, platforms, cancellations, in Gladys Assistant.",
   "type": "module",
   "main": "index.js",
   "scripts": {
