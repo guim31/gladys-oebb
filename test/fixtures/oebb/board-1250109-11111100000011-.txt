@@ -1,0 +1,32 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Salzburg S&#252;d Bahnhst [in Elsbethen]",
+"stationEvaId":"1250109",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"8278438110","ti":"12:02","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"12:29","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"323379810","ti":"12:13","da":"22.11.2026","pr":"R 3","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"12:23","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278388113","ti":"12:27","da":"22.11.2026","pr":"S 3","st":"Golling-Abtenau","lastStop":"Golling/Salzach-Abtenau Bahnhof","ati":"12:53","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278438111","ti":"12:32","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"12:59","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"332014811","ti":"12:41","da":"22.11.2026","pr":"IR 713","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"12:49","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"323358811","ti":"12:48","da":"22.11.2026","pr":"R 3","st":"Saalfelden","lastStop":"Saalfelden Bahnhof","ati":"14:34","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278388114","ti":"12:57","da":"22.11.2026","pr":"S 3","st":"Golling-Abtenau","lastStop":"Golling/Salzach-Abtenau Bahnhof","ati":"13:23","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278438112","ti":"13:02","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"13:29","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"323374811","ti":"13:13","da":"22.11.2026","pr":"R 3","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"13:23","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"332029811","ti":"13:19","da":"22.11.2026","pr":"IR 714","st":"W&#246;rgl Hbf","lastStop":"W&#246;rgl Hbf","ati":"16:09","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278388115","ti":"13:27","da":"22.11.2026","pr":"S 3","st":"Golling-Abtenau","lastStop":"Golling/Salzach-Abtenau Bahnhof","ati":"13:53","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278438113","ti":"13:32","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"13:59","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"323383810","ti":"13:48","da":"22.11.2026","pr":"R 3","st":"Saalfelden","lastStop":"Saalfelden Bahnhof","ati":"15:34","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278388116","ti":"13:57","da":"22.11.2026","pr":"S 3","st":"Golling-Abtenau","lastStop":"Golling/Salzach-Abtenau Bahnhof","ati":"14:23","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278438114","ti":"14:02","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"14:29","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"323354812","ti":"14:13","da":"22.11.2026","pr":"R 3","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"14:23","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"333289810","ti":"14:23","da":"22.11.2026","pr":"WB 912","st":"Saalfelden","lastStop":"Saalfelden Bahnhof","ati":"16:07","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278388117","ti":"14:27","da":"22.11.2026","pr":"S 3","st":"Golling-Abtenau","lastStop":"Golling/Salzach-Abtenau Bahnhof","ati":"14:53","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"8278438115","ti":"14:32","da":"22.11.2026","pr":"S 3","st":"Freilassing (Oberbayern)","lastStop":"Freilassing (Oberbayern)","ati":"14:59","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"333341810","ti":"14:38","da":"22.11.2026","pr":"WB 921","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"17:22","tr":"1","trChg":false,"rt":false,"rta":false}   
+],
+"maxJ":19
+}

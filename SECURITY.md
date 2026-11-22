@@ -30,6 +30,13 @@ Gladys before reporting a problem.
 
 In scope: the code of this repository and the Docker image it publishes.
 
+The integration needs no account and holds no secret. It stores under `/data`
+a single file, `watch.json`: the stations you watch, with their filters. Its
+only network traffic is outbound HTTPS to `fahrplan.oebb.at`, the public
+timetable of ÖBB (Scotty): the integration only reads public departure boards
+and station suggestions there and sends nothing about you; every request has a
+timeout.
+
 Out of scope: Gladys Assistant itself (see its
 [security policy](https://github.com/GladysAssistant/Gladys/security/policy)),
-and the third-party services and devices the integration talks to.
+and the ÖBB timetable the integration reads.

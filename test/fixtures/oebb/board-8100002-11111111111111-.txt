@@ -1,0 +1,33 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Salzburg Hbf",
+"stationEvaId":"8100002",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"324242810","ti":"11:56","da":"22.11.2026","pr":"RJX19952","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"14:39","tr":"2","trChg":false,"rt":{"status":null,"dlm":"6","dlt":"12:02","dld":"22.11.2026"},"rta":false}   
+,{"id":"822805810","ti":"11:56","da":"22.11.2026","pr":"RJX 162","st":"Innsbruck Hbf","lastStop":"Innsbruck Hbf","ati":"14:02","tr":"2","trChg":false,"rt":{"status":null,"dlm":"6","dlt":"12:02","dld":"22.11.2026"},"rta":false}   
+,{"id":"820096810","ti":"12:00","da":"22.11.2026","pr":"ICE 118","st":"M&#252;nster(Westf)Hbf","lastStop":"M&#252;nster(Westf)Hbf","ati":"20:46","tr":"1","trChg":true,"rt":false,"rta":false}   
+,{"id":"914447816","ti":"12:01","da":"22.11.2026","pr":"O-Bus 5","st":"Hauptbahnhof","lastStop":"Salzburg Fanny-von-Lehnert-Stra&#223;e","ati":"12:02","tr":"D","trChg":false,"rt":false,"rta":false}   
+,{"id":"969102810","ti":"12:03","da":"22.11.2026","pr":"Bus 840","st":"Salzburg Hbf","lastStop":"Salzburg Hbf (Engelbert-Wei&#223;-Weg)","ati":"12:04","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"178037810","ti":"12:05","da":"22.11.2026","pr":"RE5","st":"M&#252;nchen Hbf Gl.5-10","lastStop":"M&#252;nchen Hbf Gl.5-10","ati":"14:20","tr":"5C-F","trChg":false,"rt":false,"rta":false}   
+,{"id":"229159816","ti":"12:05","da":"22.11.2026","pr":"Bus 181","st":"Walserberg via Wals ~ Gr&#252;nau","lastStop":"Walserberg Staatsgrenze","ati":"12:39","tr":"F","trChg":false,"rt":false,"rta":false}   
+,{"id":"547670815","ti":"12:05","da":"22.11.2026","pr":"Bus 130","st":"Friedburg Bf via Eugendorf ~ Neumarkt","lastStop":"Friedburg Bahnhof (Vorplatz)","ati":"12:59","tr":"F","trChg":false,"rt":false,"rta":false}   
+,{"id":"643196816","ti":"12:05","da":"22.11.2026","pr":"Bus 170","st":"Hallein Bf via Niederalm","lastStop":"Hallein Bahnhof (L&#246;wensternstra&#223;e)","ati":"12:39","tr":"A","trChg":false,"rt":false,"rta":false}   
+,{"id":"905675813","ti":"12:05","da":"22.11.2026","pr":"Bus 25","st":"Gr&#246;dig Untersbergbahn","lastStop":"Gr&#246;dig Untersbergbahn Talstation (Busterminal)","ati":"12:40","tr":"B","trChg":false,"rt":false,"rta":false}   
+,{"id":"910122817","ti":"12:05","da":"22.11.2026","pr":"O-Bus 3","st":"Salzburg S&#252;d","lastStop":"Salzburg S&#252;d Bahnhst (Salzachweg)","ati":"12:29","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"910442818","ti":"12:05","da":"22.11.2026","pr":"O-Bus 3","st":"Salzburg Nord","lastStop":"Salzburg Landstra&#223;e (Bahnhofstra&#223;e)","ati":"12:11","tr":"D","trChg":false,"rt":false,"rta":false}   
+,{"id":"910122817","ti":"12:06","da":"22.11.2026","pr":"O-Bus 3","st":"Salzburg S&#252;d","lastStop":"Salzburg S&#252;d Bahnhst (Salzachweg)","ati":"12:29","tr":"C","trChg":false,"rt":false,"rta":false}   
+,{"id":"910442818","ti":"12:06","da":"22.11.2026","pr":"O-Bus 3","st":"Salzburg Nord","lastStop":"Salzburg Landstra&#223;e (Bahnhofstra&#223;e)","ati":"12:11","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"312173813","ti":"12:07","da":"22.11.2026","pr":"Bus 22","st":"Schallmoos","lastStop":"Salzburg Schule Schallmoos","ati":"12:14","tr":"Z","trChg":false,"rt":false,"rta":false}   
+,{"id":"323568810","ti":"12:07","da":"22.11.2026","pr":"RJX 161","st":"Wien Hbf","lastStop":"Wien Hbf (Bahnsteige 3-12)","ati":"14:32","tr":"4","trChg":false,"rt":false,"rta":false}   
+,{"id":"324018810","ti":"12:07","da":"22.11.2026","pr":"RJX 186","st":"Wien Hbf","lastStop":"Wien Hbf (Bahnsteige 3-12)","ati":"14:32","tr":"4","trChg":false,"rt":false,"rta":false}   
+,{"id":"533840815","ti":"12:07","da":"22.11.2026","pr":"Bus 160","st":"Hallein via Aigen ~ Puch Gewerbegebiet ~ Oberalm","lastStop":"Hallein Heidebr&#252;cke","ati":"12:46","tr":"A","trChg":false,"rt":false,"rta":false}   
+,{"id":"819906810","ti":"12:07","da":"22.11.2026","pr":"EC 115","st":"Zagreb Glavni kolodvor","lastStop":"Zagreb Glavni kolodvor","ati":"19:20","tr":"9","trChg":false,"rt":false,"rta":false}   
+,{"id":"3333048114","ti":"12:08","da":"22.11.2026","pr":"S 1","st":"Lamprechtshausen","lastStop":"Lamprechtshausen Bahnhof","ati":"12:44","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"478639810","ti":"12:08","da":"22.11.2026","pr":"RB45","st":"M&#252;hldorf (Oberbayern)","lastStop":"M&#252;hldorf (Oberbayern)","ati":"13:14","tr":"6D-F","trChg":false,"rt":false,"rta":false}   
+],
+"maxJ":20
+}

@@ -31,18 +31,47 @@ pushing.
 ## Architecture
 
 ```
-index.js                          SDK wiring only: handlers registered before connect()
-src/devices/index.js              registry of the device blueprints + dispatch helpers
-src/devices/<type>.js             one device type per file (buildDevice, onPoll, onSetValue...)
+index.js                          SDK wiring only (src/app.js does the registering)
+src/app.js                        registers every handler; the tests drive the same wiring
+src/service.js                    watched stations, devices, refresh timer, states, scene triggers, actions
+src/scotty.js                     client of the ÖBB timetable (station search, departure board)
+src/trains.js                     pure functions: journeys → departures, Austrian time, station pick
+src/devices.js                    the station device and its states
+src/messages.js                   every text sent from the container, in en/fr/de/es
 src/scenes.js                     scene action handlers (manifest `scene_actions`)
 src/widgets.js                    dashboard widget handlers (manifest `widgets`)
+src/store.js                      /data/watch.json (watched stations), atomic writes
 src/config.js                     DEFAULT_CONFIG (mirrors the manifest defaults) + normalization
-src/weather.js                    example driver (Open-Meteo)
 gladys-assistant-integration.json manifest: name, config_schema, actions, image...
-docs/en.md, docs/fr.md            user documentation, re-hosted by Gladys (mandatory)
-test/                             node --test, against the SDK's fake Gladys (integration-sdk/testing)
+docs/{en,fr,de,es}.md             user documentation, re-hosted by Gladys
+test/                             node --test, against the SDK's fake Gladys and recorded Scotty answers
 .github/scripts/release.mjs       release helpers (manifest bump, changelog), tested in test/
 ```
+
+## ÖBB (Scotty)
+
+- No official open API. The integration reads two public pages of `fahrplan.oebb.at`, the ones
+  the community departure monitors use, without key: `bin/stboard.exe/dn` with `L=vs_scotty.vs_liveticker` and
+  `outputMode=tickerDataOnly` (a statement `journeysObj = {...}`) and `bin/ajax-getstop.exe/dn`
+  (`SLs.sls={...};SLs.showSuggestion();`, sometimes twice in a row: read the first object).
+  Both answer **ISO-8859-1**, the board with **HTML entities** (`&#214;tztal`).
+- Board: `maxJourneys` sets the number of departures (`showJourneys` alone stops at the next
+  hour); `productsFilter` is a 14-bit string, one bit per product family, checked on the live
+  boards (0 Railjet/RJX, 2 IC/EC, 4 REX/R/CJX, 5 S-Bahn, 6 and 10 buses, 8 U-Bahn, 9 tram);
+  `dirInput=<station number>` keeps the departures that stop there later.
+- A journey: `ti`/`da` scheduled time and date in **Austrian time**, `pr` product ("RJX 162",
+  sometimes "RJX19952" without space), `st` direction, `tr` platform, `trChg`
+  platform changed, `rt` false without real-time data, else `{ status, dlm, dlt, dld }` (delay in
+  minutes, expected time and date). A cancellation is `rt.status` "Ausfall" (as read by several
+  community clients; none was live at capture time, the tests stage it).
+- The board lists a late train whose scheduled time has passed (EC 140 at 11:30, 34 min late, on a
+  board read at 11:59): the departures are dropped one minute after their expected time.
+- An unknown station number answers a board with an empty `stationName`; but a number Scotty maps
+  elsewhere (9999999) answers some bus stop. The search is fuzzy: a nonsense text still lists 50
+  far stations, so "unknown name" shows as "several stations match".
+- Station numbers: the search gives `extId` with leading zeros ("008100002"), the board accepts
+  them without. A big hub has several entries (Wien Hbf (U), Wien Hbf (Bahnsteige 3-12)…).
+- Fixtures recorded on 2026-11-22 at 11:59 in Austria (`test/fixtures/oebb/captured-at.txt`).
 
 ## Rules
 

@@ -1,0 +1,32 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Krumpendorf/W&#246;rther See Bahnhof",
+"stationEvaId":"8100079",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"329013811","ti":"12:18","da":"22.11.2026","pr":"S 4","st":"Hermagor","lastStop":"Hermagor Bahnhof","ati":"13:48","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"302202811","ti":"13:25","da":"22.11.2026","pr":"Bus 421","st":"Feldkirchen in Ktn Busbahnhof (Bambergerplatz)","lastStop":"Feldkirchen in Ktn Busbahnhof (Bambergerplatz)","ati":"13:59","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"329093810","ti":"13:41","da":"22.11.2026","pr":"S 4","st":"Klagenfurt Hbf","lastStop":"Klagenfurt Hbf","ati":"13:49","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329049811","ti":"14:18","da":"22.11.2026","pr":"S 4","st":"Hermagor","lastStop":"Hermagor Bahnhof","ati":"15:48","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"329780810","ti":"15:17","da":"22.11.2026","pr":"S 1","st":"Wolfsberg in Ktn","lastStop":"Wolfsberg in Ktn Bahnhof","ati":"16:41","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329075811","ti":"15:41","da":"22.11.2026","pr":"S 4","st":"Klagenfurt Hbf","lastStop":"Klagenfurt Hbf","ati":"15:49","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329783810","ti":"15:42","da":"22.11.2026","pr":"S 1","st":"Villach Hbf","lastStop":"Villach Hbf","ati":"16:11","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"329780811","ti":"16:17","da":"22.11.2026","pr":"S 1","st":"Wolfsberg in Ktn","lastStop":"Wolfsberg in Ktn Bahnhof","ati":"17:41","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329013812","ti":"16:18","da":"22.11.2026","pr":"S 4","st":"Hermagor","lastStop":"Hermagor Bahnhof","ati":"17:48","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"302202812","ti":"16:25","da":"22.11.2026","pr":"Bus 421","st":"Feldkirchen in Ktn Busbahnhof (Bambergerplatz)","lastStop":"Feldkirchen in Ktn Busbahnhof (Bambergerplatz)","ati":"16:59","tr":"","trChg":false,"rt":false,"rta":false}   
+,{"id":"330354810","ti":"16:41","da":"22.11.2026","pr":"IC 532","st":"Wien Hbf","lastStop":"Wien Hbf (Bahnsteige 3-12)","ati":"20:07","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329784810","ti":"16:42","da":"22.11.2026","pr":"S 1","st":"Villach Hbf","lastStop":"Villach Hbf","ati":"17:11","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"329780812","ti":"17:17","da":"22.11.2026","pr":"S 1","st":"Wolfsberg in Ktn","lastStop":"Wolfsberg in Ktn Bahnhof","ati":"18:41","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329093811","ti":"17:41","da":"22.11.2026","pr":"S 4","st":"Klagenfurt Hbf","lastStop":"Klagenfurt Hbf","ati":"17:49","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329784811","ti":"17:42","da":"22.11.2026","pr":"S 1","st":"Villach Hbf","lastStop":"Villach Hbf","ati":"18:11","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"329780813","ti":"18:17","da":"22.11.2026","pr":"S 1","st":"Wolfsberg in Ktn","lastStop":"Wolfsberg in Ktn Bahnhof","ati":"19:41","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329049812","ti":"18:18","da":"22.11.2026","pr":"S 4","st":"Hermagor","lastStop":"Hermagor Bahnhof","ati":"19:48","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"329784812","ti":"18:42","da":"22.11.2026","pr":"S 1","st":"Villach Hbf","lastStop":"Villach Hbf","ati":"19:11","tr":"1","trChg":false,"rt":false,"rta":false}   
+,{"id":"329780814","ti":"19:17","da":"22.11.2026","pr":"S 1","st":"Wolfsberg in Ktn","lastStop":"Wolfsberg in Ktn Bahnhof","ati":"20:41","tr":"2","trChg":false,"rt":false,"rta":false}   
+,{"id":"329075812","ti":"19:41","da":"22.11.2026","pr":"S 4","st":"Klagenfurt Hbf","lastStop":"Klagenfurt Hbf","ati":"19:49","tr":"2","trChg":false,"rt":false,"rta":false}   
+],
+"maxJ":19
+}

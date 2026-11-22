@@ -1,0 +1,32 @@
+journeysObj = {
+"headTexts":["Zeit","Fahrt","Nach","Steig","Abfahrten","Aktuell","Ankunft"],
+"stationName":"Wien Hbf (U)",
+"stationEvaId":"1290401",
+"boardType":"dep",
+"imgPath":"/hafas-res/img/",
+"iconProductsSubPath":"vs_oebb/",
+"rtInfo":true,
+"journey":[
+{"id":"821214810","ti":"11:30","da":"22.11.2026","pr":"EC 140","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"12:00","tr":"8A-B","trChg":true,"rt":{"status":null,"dlm":"34","dlt":"12:04","dld":"22.11.2026"},"rta":false}   
+,{"id":"330383810","ti":"11:53","da":"22.11.2026","pr":"IC 535","st":"Graz Hbf","lastStop":"Graz Hbf","ati":"14:19","tr":"7A-B","trChg":false,"rt":{"status":null,"dlm":"7","dlt":"12:00","dld":"22.11.2026"},"rta":false}   
+,{"id":"825342810","ti":"12:00","da":"22.11.2026","pr":"EC 203","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"12:30","tr":"6A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"825366810","ti":"12:10","da":"22.11.2026","pr":"EC 204","st":"Krakow Glowny","lastStop":"Krakow Glowny","ati":"17:47","tr":"12A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"330484810","ti":"12:13","da":"22.11.2026","pr":"IC 549","st":"Flughafen Wien","lastStop":"Flughafen Wien Bahnhof","ati":"12:27","tr":"9A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"332193810","ti":"12:24","da":"22.11.2026","pr":"RJ 750","st":"Villach Hbf","lastStop":"Villach Hbf","ati":"16:24","tr":"7A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"324307810","ti":"12:28","da":"22.11.2026","pr":"RJX19982","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"17:39","tr":"8","trChg":false,"rt":{"status":null,"dlm":"7","dlt":"12:35","dld":"22.11.2026"},"rta":false}   
+,{"id":"838314810","ti":"12:28","da":"22.11.2026","pr":"RJX 62","st":"M&#252;nchen Hbf","lastStop":"M&#252;nchen Hbf","ati":"16:43","tr":"8","trChg":false,"rt":{"status":null,"dlm":"7","dlt":"12:35","dld":"22.11.2026"},"rta":false}   
+,{"id":"821781810","ti":"12:40","da":"22.11.2026","pr":"EC 145","st":"Budapest-Keleti","lastStop":"Budapest-Keleti","ati":"15:35","tr":"12A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"331744810","ti":"12:42","da":"22.11.2026","pr":"RJ 659","st":"Flughafen Wien","lastStop":"Flughafen Wien Bahnhof","ati":"12:57","tr":"10A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"821086810","ti":"12:53","da":"22.11.2026","pr":"RJX 135","st":"Venezia Santa Lucia","lastStop":"Venezia Santa Lucia","ati":"20:03","tr":"7A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"331480812","ti":"12:57","da":"22.11.2026","pr":"IC 644","st":"Salzburg Hbf","lastStop":"Salzburg Hbf","ati":"15:49","tr":"8A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"826986810","ti":"13:10","da":"22.11.2026","pr":"RJ 244","st":"Dresden Hbf","lastStop":"Dresden Hbf","ati":"20:21","tr":"12","trChg":false,"rt":false,"rta":false}   
+,{"id":"331502810","ti":"13:13","da":"22.11.2026","pr":"IC 641","st":"Flughafen Wien","lastStop":"Flughafen Wien Bahnhof","ati":"13:27","tr":"9A-B","trChg":true,"rt":false,"rta":false}   
+,{"id":"819497810","ti":"13:24","da":"22.11.2026","pr":"RJ 110","st":"M&#252;nchen Hbf","lastStop":"M&#252;nchen Hbf","ati":"21:51","tr":"7A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"323709810","ti":"13:28","da":"22.11.2026","pr":"RJX 166","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"18:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"324245810","ti":"13:28","da":"22.11.2026","pr":"RJX19956","st":"&#214;tztal","lastStop":"&#214;tztal Bahnhof","ati":"18:39","tr":"8","trChg":false,"rt":false,"rta":false}   
+,{"id":"821487810","ti":"13:30","da":"22.11.2026","pr":"EC 142","st":"Wien Westbahnhof","lastStop":"Wien Westbahnhof","ati":"14:00","tr":"6A-B","trChg":false,"rt":false,"rta":false}   
+,{"id":"838530810","ti":"13:40","da":"22.11.2026","pr":"RJX 63","st":"Budapest-Keleti","lastStop":"Budapest-Keleti","ati":"16:35","tr":"9","trChg":false,"rt":{"status":null,"dlm":"4","dlt":"13:44","dld":"22.11.2026"},"rta":false}   
+,{"id":"324312810","ti":"13:42","da":"22.11.2026","pr":"RJX19983","st":"Flughafen Wien","lastStop":"Flughafen Wien Bahnhof","ati":"13:57","tr":"9A-B","trChg":false,"rt":false,"rta":false}   
+],
+"maxJ":19
+}
