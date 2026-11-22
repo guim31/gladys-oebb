@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-11-22
+
 ### Added
 
 - A device per watched Austrian station (data of Scotty, the public ÖBB
@@ -25,4 +27,5 @@ the notes of the version's GitHub Release.
 - A _Get the next trains_ scene action, with a sentence ready to send.
 - Texts and documentation in English, French, German and Spanish.
 
-[Unreleased]: https://github.com/guim31/gladys-oebb/commits/main
+[Unreleased]: https://github.com/guim31/gladys-oebb/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/guim31/gladys-oebb/releases/tag/v1.0.0
