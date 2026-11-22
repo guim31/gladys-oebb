@@ -106,7 +106,8 @@ export function parseDepartures(journeys, now) {
       const realTime = viennaMs(rt.dld || journey.da, rt.dlt);
       const minutes = Number(rt.dlm);
       if (Number.isFinite(realTime)) {
-        expected = realTime;
+        // A delay past midnight without its date ("23:55" → "00:05"): the next day.
+        expected = realTime < scheduledAt - 12 * 3600000 ? realTime + 86400000 : realTime;
       } else if (Number.isFinite(minutes) && rt.dlm !== '' && rt.dlm !== null) {
         expected = scheduledAt + minutes * 60000;
       }

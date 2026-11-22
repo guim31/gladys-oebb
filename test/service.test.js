@@ -68,6 +68,9 @@ test('add: by name, by number, with a filter and a station passed; errors in red
   assert.match(byNumber.de, /Krumpendorf\/Wörther See Bahnhof \(Züge\) hinzugefügt/);
   assert.equal(world.fake.discoveredDevices.length, 3);
 
+  // The number as the search writes it, with leading zeros: the same station.
+  const zeros = await world.fake.action('add_station', { station: '008100002' });
+  assert.match(zeros.data.message.en, /Salzburg Hbf is already watched/);
   const twice = await world.fake.action('add_station', { station: '8100002' });
   assert.equal(twice.success, true);
   assert.match(twice.data.message.en, /already watched/);

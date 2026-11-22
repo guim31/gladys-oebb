@@ -22,7 +22,7 @@ export const USER_AGENT = 'gladys-oebb (Gladys Assistant integration)';
 // applied by Scotty itself.
 export const MAX_JOURNEYS = 20;
 // Station numbers (IBNR / EVA): "8100002" (Salzburg Hbf), "1290401" (Wien Hbf).
-export const STATION_CODE = /^\d{6,9}$/;
+export const STATION_CODE = /^\d{3,9}$/;
 
 // The products of a board, by position in `productsFilter` (checked against
 // the real boards: 0 Railjet, 2 IC/EC, 4 REX/R/CJX, 5 S-Bahn, 6 and 10 buses,
@@ -44,6 +44,10 @@ export function productsFilter(group) {
 }
 
 export class ScottyError extends Error {}
+
+/** "008100002" → "8100002": the search writes leading zeros, the board does not need them. */
+export const normalizeCode = (code) =>
+  STATION_CODE.test(String(code ?? '').trim()) ? String(Number(String(code).trim())) : '';
 
 const ENTITIES = { amp: '&', quot: '"', apos: "'", lt: '<', gt: '>', nbsp: ' ' };
 
@@ -143,7 +147,7 @@ export class Scotty {
     const stations = [];
     for (const entry of data.suggestions) {
       // type 1: a station or stop (2 is an address, 4 a point of interest).
-      const code = String(Number(entry?.extId ?? NaN));
+      const code = normalizeCode(entry?.extId);
       const name = decodeEntities(entry?.value);
       if (String(entry?.type) !== '1' || !STATION_CODE.test(code) || !name || seen.has(code)) {
         continue;
@@ -161,15 +165,16 @@ export class Scotty {
    * @param {{ group?: string, via?: string }} [filters] product group, station number it passes
    */
   async board(code, { group = '', via = '' } = {}) {
-    if (!STATION_CODE.test(String(code))) {
+    const station = normalizeCode(code);
+    if (!station) {
       return { name: '', journeys: [] };
     }
     const body = await this.get('stboard.exe/dn', {
       L: 'vs_scotty.vs_liveticker',
-      evaId: String(code),
+      evaId: station,
       boardType: 'dep',
       productsFilter: productsFilter(group),
-      dirInput: STATION_CODE.test(String(via)) ? String(via) : '',
+      dirInput: normalizeCode(via),
       maxJourneys: String(MAX_JOURNEYS),
       tickerID: 'dep',
       start: 'yes',
@@ -190,6 +195,6 @@ export class Scotty {
   /** The station of a number, or null when Scotty does not know it. */
   async station(code) {
     const { name } = await this.board(code);
-    return name ? { code: String(code), name } : null;
+    return name ? { code: normalizeCode(code), name } : null;
   }
 }

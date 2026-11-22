@@ -134,3 +134,16 @@ test('the object of a JavaScript statement, braces inside strings included', () 
   assert.deepEqual(extractObject('x = {"a":"}{","b":{"c":1}};y()', 'x'), { a: '}{', b: { c: 1 } });
   assert.equal(extractObject('<html>maintenance</html>', 'journeysObj'), null);
 });
+
+test('a delay past midnight, with or without its date', () => {
+  const late = (rt) =>
+    parseDepartures(
+      [{ id: '1', ti: '23:55', da: '22.11.2026', pr: 'S 4', st: 'Hermagor', tr: '1', rt }],
+      viennaMs('22.11.2026', '23:58'),
+    );
+  const withDate = late({ status: null, dlm: '10', dlt: '00:05', dld: '23.11.2026' });
+  const withoutDate = late({ status: null, dlm: '10', dlt: '00:05', dld: '' });
+  for (const [departure] of [withDate, withoutDate]) {
+    assert.deepEqual([departure.time, departure.late, departure.minutes], ['00:05', 10, 7]);
+  }
+});
